@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C4D5638F256C1B0900AAB8FD /* BikeGeometryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4D5638E256C1B0900AAB8FD /* BikeGeometryApp.swift */; };
+		C4D56391256C1B0900AAB8FD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4D56390256C1B0900AAB8FD /* ContentView.swift */; };
+		C4D56393256C1B0C00AAB8FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4D56392256C1B0C00AAB8FD /* Assets.xcassets */; };
+		C4D56396256C1B0C00AAB8FD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4D56395256C1B0C00AAB8FD /* Preview Assets.xcassets */; };
+		C4D563A1256C1B0C00AAB8FD /* BikeGeometryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4D563A0256C1B0C00AAB8FD /* BikeGeometryTests.swift */; };
+		C4D563AC256C1B0C00AAB8FD /* BikeGeometryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4D563AB256C1B0C00AAB8FD /* BikeGeometryUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C4D5639D256C1B0C00AAB8FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C4D56383256C1B0900AAB8FD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C4D5638A256C1B0900AAB8FD;
+			remoteInfo = BikeGeometry;
+		};
+		C4D563A8256C1B0C00AAB8FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C4D56383256C1B0900AAB8FD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C4D5638A256C1B0900AAB8FD;
+			remoteInfo = BikeGeometry;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C4D5638B256C1B0900AAB8FD /* BikeGeometry.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BikeGeometry.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4D5638E256C1B0900AAB8FD /* BikeGeometryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BikeGeometryApp.swift; sourceTree = "<group>"; };
+		C4D56390256C1B0900AAB8FD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C4D56392256C1B0C00AAB8FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C4D56395256C1B0C00AAB8FD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C4D56397256C1B0C00AAB8FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4D5639C256C1B0C00AAB8FD /* BikeGeometryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BikeGeometryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4D563A0256C1B0C00AAB8FD /* BikeGeometryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BikeGeometryTests.swift; sourceTree = "<group>"; };
+		C4D563A2256C1B0C00AAB8FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4D563A7256C1B0C00AAB8FD /* BikeGeometryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BikeGeometryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4D563AB256C1B0C00AAB8FD /* BikeGeometryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BikeGeometryUITests.swift; sourceTree = "<group>"; };
+		C4D563AD256C1B0C00AAB8FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C4D56388256C1B0900AAB8FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4D56399256C1B0C00AAB8FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4D563A4256C1B0C00AAB8FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C4D56382256C1B0900AAB8FD = {
+			isa = PBXGroup;
+			children = (
+				C4D5638D256C1B0900AAB8FD /* BikeGeometry */,
+				C4D5639F256C1B0C00AAB8FD /* BikeGeometryTests */,
+				C4D563AA256C1B0C00AAB8FD /* BikeGeometryUITests */,
+				C4D5638C256C1B0900AAB8FD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C4D5638C256C1B0900AAB8FD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C4D5638B256C1B0900AAB8FD /* BikeGeometry.app */,
+				C4D5639C256C1B0C00AAB8FD /* BikeGeometryTests.xctest */,
+				C4D563A7256C1B0C00AAB8FD /* BikeGeometryUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C4D5638D256C1B0900AAB8FD /* BikeGeometry */ = {
+			isa = PBXGroup;
+			children = (
+				C4D5638E256C1B0900AAB8FD /* BikeGeometryApp.swift */,
+				C4D56390256C1B0900AAB8FD /* ContentView.swift */,
+				C4D56392256C1B0C00AAB8FD /* Assets.xcassets */,
+				C4D56397256C1B0C00AAB8FD /* Info.plist */,
+				C4D56394256C1B0C00AAB8FD /* Preview Content */,
+			);
+			path = BikeGeometry;
+			sourceTree = "<group>";
+		};
+		C4D56394256C1B0C00AAB8FD /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C4D56395256C1B0C00AAB8FD /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C4D5639F256C1B0C00AAB8FD /* BikeGeometryTests */ = {
+			isa = PBXGroup;
+			children = (
+				C4D563A0256C1B0C00AAB8FD /* BikeGeometryTests.swift */,
+				C4D563A2256C1B0C00AAB8FD /* Info.plist */,
+			);
+			path = BikeGeometryTests;
+			sourceTree = "<group>";
+		};
+		C4D563AA256C1B0C00AAB8FD /* BikeGeometryUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C4D563AB256C1B0C00AAB8FD /* BikeGeometryUITests.swift */,
+				C4D563AD256C1B0C00AAB8FD /* Info.plist */,
+			);
+			path = BikeGeometryUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C4D5638A256C1B0900AAB8FD /* BikeGeometry */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4D563B0256C1B0C00AAB8FD /* Build configuration list for PBXNativeTarget "BikeGeometry" */;
+			buildPhases = (
+				C4D56387256C1B0900AAB8FD /* Sources */,
+				C4D56388256C1B0900AAB8FD /* Frameworks */,
+				C4D56389256C1B0900AAB8FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BikeGeometry;
+			productName = BikeGeometry;
+			productReference = C4D5638B256C1B0900AAB8FD /* BikeGeometry.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C4D5639B256C1B0C00AAB8FD /* BikeGeometryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4D563B3256C1B0C00AAB8FD /* Build configuration list for PBXNativeTarget "BikeGeometryTests" */;
+			buildPhases = (
+				C4D56398256C1B0C00AAB8FD /* Sources */,
+				C4D56399256C1B0C00AAB8FD /* Frameworks */,
+				C4D5639A256C1B0C00AAB8FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C4D5639E256C1B0C00AAB8FD /* PBXTargetDependency */,
+			);
+			name = BikeGeometryTests;
+			productName = BikeGeometryTests;
+			productReference = C4D5639C256C1B0C00AAB8FD /* BikeGeometryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C4D563A6256C1B0C00AAB8FD /* BikeGeometryUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4D563B6256C1B0C00AAB8FD /* Build configuration list for PBXNativeTarget "BikeGeometryUITests" */;
+			buildPhases = (
+				C4D563A3256C1B0C00AAB8FD /* Sources */,
+				C4D563A4256C1B0C00AAB8FD /* Frameworks */,
+				C4D563A5256C1B0C00AAB8FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C4D563A9256C1B0C00AAB8FD /* PBXTargetDependency */,
+			);
+			name = BikeGeometryUITests;
+			productName = BikeGeometryUITests;
+			productReference = C4D563A7256C1B0C00AAB8FD /* BikeGeometryUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C4D56383256C1B0900AAB8FD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					C4D5638A256C1B0900AAB8FD = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					C4D5639B256C1B0C00AAB8FD = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = C4D5638A256C1B0900AAB8FD;
+					};
+					C4D563A6256C1B0C00AAB8FD = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = C4D5638A256C1B0900AAB8FD;
+					};
+				};
+			};
+			buildConfigurationList = C4D56386256C1B0900AAB8FD /* Build configuration list for PBXProject "BikeGeometry" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C4D56382256C1B0900AAB8FD;
+			productRefGroup = C4D5638C256C1B0900AAB8FD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C4D5638A256C1B0900AAB8FD /* BikeGeometry */,
+				C4D5639B256C1B0C00AAB8FD /* BikeGeometryTests */,
+				C4D563A6256C1B0C00AAB8FD /* BikeGeometryUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C4D56389256C1B0900AAB8FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4D56396256C1B0C00AAB8FD /* Preview Assets.xcassets in Resources */,
+				C4D56393256C1B0C00AAB8FD /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4D5639A256C1B0C00AAB8FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4D563A5256C1B0C00AAB8FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C4D56387256C1B0900AAB8FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4D56391256C1B0900AAB8FD /* ContentView.swift in Sources */,
+				C4D5638F256C1B0900AAB8FD /* BikeGeometryApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4D56398256C1B0C00AAB8FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4D563A1256C1B0C00AAB8FD /* BikeGeometryTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4D563A3256C1B0C00AAB8FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4D563AC256C1B0C00AAB8FD /* BikeGeometryUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C4D5639E256C1B0C00AAB8FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C4D5638A256C1B0900AAB8FD /* BikeGeometry */;
+			targetProxy = C4D5639D256C1B0C00AAB8FD /* PBXContainerItemProxy */;
+		};
+		C4D563A9256C1B0C00AAB8FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C4D5638A256C1B0900AAB8FD /* BikeGeometry */;
+			targetProxy = C4D563A8256C1B0C00AAB8FD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C4D563AE256C1B0C00AAB8FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C4D563AF256C1B0C00AAB8FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C4D563B1256C1B0C00AAB8FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"BikeGeometry/Preview Content\"";
+				DEVELOPMENT_TEAM = A7CU34Q5LT;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = BikeGeometry/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.alexmaslar.BikeGeometry;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C4D563B2256C1B0C00AAB8FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"BikeGeometry/Preview Content\"";
+				DEVELOPMENT_TEAM = A7CU34Q5LT;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = BikeGeometry/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.alexmaslar.BikeGeometry;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C4D563B4256C1B0C00AAB8FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A7CU34Q5LT;
+				INFOPLIST_FILE = BikeGeometryTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.alexmaslar.BikeGeometryTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BikeGeometry.app/BikeGeometry";
+			};
+			name = Debug;
+		};
+		C4D563B5256C1B0C00AAB8FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A7CU34Q5LT;
+				INFOPLIST_FILE = BikeGeometryTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.alexmaslar.BikeGeometryTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BikeGeometry.app/BikeGeometry";
+			};
+			name = Release;
+		};
+		C4D563B7256C1B0C00AAB8FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A7CU34Q5LT;
+				INFOPLIST_FILE = BikeGeometryUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.alexmaslar.BikeGeometryUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BikeGeometry;
+			};
+			name = Debug;
+		};
+		C4D563B8256C1B0C00AAB8FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A7CU34Q5LT;
+				INFOPLIST_FILE = BikeGeometryUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.alexmaslar.BikeGeometryUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BikeGeometry;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C4D56386256C1B0900AAB8FD /* Build configuration list for PBXProject "BikeGeometry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4D563AE256C1B0C00AAB8FD /* Debug */,
+				C4D563AF256C1B0C00AAB8FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4D563B0256C1B0C00AAB8FD /* Build configuration list for PBXNativeTarget "BikeGeometry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4D563B1256C1B0C00AAB8FD /* Debug */,
+				C4D563B2256C1B0C00AAB8FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4D563B3256C1B0C00AAB8FD /* Build configuration list for PBXNativeTarget "BikeGeometryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4D563B4256C1B0C00AAB8FD /* Debug */,
+				C4D563B5256C1B0C00AAB8FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4D563B6256C1B0C00AAB8FD /* Build configuration list for PBXNativeTarget "BikeGeometryUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4D563B7256C1B0C00AAB8FD /* Debug */,
+				C4D563B8256C1B0C00AAB8FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C4D56383256C1B0900AAB8FD /* Project object */;
+}
